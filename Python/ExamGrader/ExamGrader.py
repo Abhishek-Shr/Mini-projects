@@ -1,4 +1,4 @@
-# This program will grade a student from 0 to 100%.
+# This console program will grade a student from 0 to 100%.
 #  > Enter the correct exam answers in a string
 #  > Enter the student's answers in a string
 #  > You'll get the student's score in percentage and... in a string!
