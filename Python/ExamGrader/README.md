@@ -1,3 +1,5 @@
-<h1>(Python) Random Password Generator 1.0</h1>
-A console program that generates random passwords. 
-You can specify the password length and how many passwords you want to generate.
+<h1>(Python) Exam Grader</h1>
+A console program that will grade any amount of students from 0 to 100%.
+You must enter the correct answers,
+then enter one student's answers
+and the student will be graded from 0 to 100%
