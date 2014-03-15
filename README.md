@@ -12,5 +12,5 @@ A console program that generates random passwords. You can specify the password 
 A console program that calculates change if provided with client's cash given
 and item price. Returns the change by dollars and coins.
 
-### (Python) Ubuntu Spell Checker
+#### (Python) Ubuntu Spell Checker
 A console program that spell checks any given file in the same directory as spellcheck.py . The spellchecker's dictionary is any installed Ubuntu dictionaries located in /usr/share/dict/
