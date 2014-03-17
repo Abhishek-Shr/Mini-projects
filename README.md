@@ -13,4 +13,7 @@ A console program that calculates change if provided with client's cash given
 and item price. Returns the change by dollars and coins.
 
 #### (Python) Ubuntu Spell Checker
-A console program that spell checks any given file in the same directory as spellcheck.py . The spellchecker's dictionary is any installed Ubuntu dictionaries located in /usr/share/dict/
+A console program that spell checks any given file in the same directory as spellcheck.py . The spell checker's dictionary is any installed Ubuntu dictionaries located in /usr/share/dict/
+
+#### (Python) Translate Internet Abbreviations
+A console program that translates common internet abbreviations in an input string. The abbreviations dictionary can be updated with as many abbreviations as you know or want. Currently it contains some of the more common ones.
