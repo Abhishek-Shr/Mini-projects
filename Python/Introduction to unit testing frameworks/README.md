@@ -2,7 +2,7 @@
 
 
 ## About:
-Contains the source code for [Python 3 How to: Write Unit tests (PyUnit, pytest, nose)]()
+Contains the source code for [Python 3 How to: Write Unit tests (PyUnit, pytest, nose)](http://syndbg.wordpress.com/2014/04/20/python-3-how-to-write-unit-tests-unittest-pytest-nose/)
 
 
 ## Goal:
@@ -10,14 +10,17 @@ Aims to help people start writing unit tests and follow TDD practices.
 
 
 ## Unit testing frameworks covered:
-[PyUnit](http://pyunit.sourceforge.net/) ([unittest](https://docs.python.org/3.4/library/unittest.html) in python modules)
-[Pytest](http://pytest.org/latest/)
-[Nose](http://nose.readthedocs.org)
+* [PyUnit](http://pyunit.sourceforge.net/) ([unittest](https://docs.python.org/3.4/library/unittest.html) in python modules)
+
+* [Pytest](http://pytest.org/latest/)
+
+* [Nose](http://nose.readthedocs.org)
 
 
 ## Dependancies:
-Python 3.x
-pip or easy_install
+* Python 3.x
+
+* pip or easy_install
 
 
 ## Requirements:

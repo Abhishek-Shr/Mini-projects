@@ -28,7 +28,7 @@ class TestBankAccount(unittest.TestCase):
 
     def test_withdraw_amount_less_than_balance(self):
         self.ba.withdraw(600)
-        self.assertEqual(400, self.ba.get_balance())
+            self.assertEqual(400, self.ba.get_balance())
 
 
 # TESTS RUN
