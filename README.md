@@ -25,3 +25,7 @@ A console program that translates common internet abbreviations in an input stri
 #### (Python 3) Introduction to unit testing frameworks
 Related to my blog article [Python 3 How to: Write Unit tests with different frameworks](http://syndbg.wordpress.com/2014/04/20/python-3-how-to-write-unit-tests-unittest-pytest-nose/)
 Contains simple unit tests aiming to show people how to write unit tests in PyUnit, Pytest and Nose.
+
+
+### (HTML5/CSS3) Example CV for Softuni
+It was going to be used as an entry CV for [SoftUni.bg](https://softuni.bg). Technologies used are HTML5, CSS3 and media queries.

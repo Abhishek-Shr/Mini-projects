@@ -1,0 +1,383 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,rem,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    margin:0;
+    padding:0;
+    vertical-align:baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,footer,
+header,hgroup,
+menu,
+nav,
+section {
+    display:block;
+}
+
+html, body {
+	/* the background-image:url(../) crashed 10 times straight in Visual Studio 2013. Possible bug? */
+    background-image:url("../images/Background-SoftUni.jpg");
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:100%;
+    background-size:cover;
+    font-family: 'Lato', helvetica, arial, sans-serif; 
+    font-size: 1.02rem; 
+    color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.4rem;
+	margin-bottom: 20px;
+	color: gray;
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	background: ghostwhite;
+	margin: 30px auto;
+    border-radius:10px;
+}
+
+.mainDetails {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+	padding: 25px 35px;
+	border-bottom: 2px solid steelblue;
+	background: ghostwhite;
+}
+
+#name h1 {
+    -webkit-text-shadow: -1px 0 1px gray, 1px 0 1px gray, 0 -1px 1px gray, 0 1px 1px gray;
+    -moz-text-shadow: -1px 0 1px gray, 1px 0 1px gray, 0 -1px 1px gray, 0 1px 1px gray;
+    text-shadow: -1px 0 1px gray, 1px 0 1px gray, 0 -1px 1px gray, 0 1px 1px gray;
+    color: lightskyblue;
+	font-size: 2.5rem;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#photo {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#photo img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 120px;
+	border-radius: 120px;
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9rem;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: dimgray;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: dimgray; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover { 
+	color: lightskyblue;
+}
+
+div#education a, a:visited {
+    color: dimgray; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+div#education a:hover {
+    color: lightskyblue;
+}
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5rem;
+	color: steelblue;
+}
+
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8rem;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+.skills {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1rem;
+	color: gray;
+}
+
+.skills ul li {
+	margin-bottom: 3px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+	#photo {
+		display: none;
+	}
+	
+	.skills {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	}
+}
+
+@media all and (max-width: 601px) {
+	#cv {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+	#photo {
+		display: none;
+	}
+	
+	#name, #contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.sectionTitle {
+		margin-left: -2px;
+		font-size: 1.25rem;
+	}
+	
+	.skills {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	#mainArea {
+		padding: 0 25px;
+	}
+
+	
+	.skills {
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	}
+	
+	#name h1 {
+		line-height: .8rem;
+		margin-bottom: 4px;
+	}
+}
+
+@media print {
+    #cv {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.instaFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+}
+
+.delayHalfSecond {
+	-webkit-animation-delay: 0, .5s;
+	-moz-animation-delay: 0, .5s;
+	animation-delay: 0, .5s;
+}
+
+.delaySecond {
+	-webkit-animation-delay: 0, 1s;
+	-moz-animation-delay: 0, 1s;
+	animation-delay: 0, 1s;
+}
+
+.delaySecondAndHalf {
+	-webkit-animation-delay: 0, 1.5s;
+	-moz-animation-delay: 0, 1.5s;
+	animation-delay: 0, 1.5s;
+}
+
+.delaySecondAndSeventyFive {
+	-webkit-animation-delay: 0, 1.75s;
+	-moz-animation-delay: 0, 1.75s;
+	animation-delay: 0, 1.75s;
+}
