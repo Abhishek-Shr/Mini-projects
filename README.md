@@ -33,3 +33,6 @@ It was going to be used as an entry CV for [SoftUni.bg](https://softuni.bg). Med
 
 ### (Java, GUI, Swing)  Font Viewer
 A simple font viewer that fetches all available fonts on the OS it's being launched on. You can set text, font, style and size.
+
+![java swing font viewer](http://i.imgur.com/cWgqxXf.png "Java Swing Font Viewer")
+
