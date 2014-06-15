@@ -28,4 +28,8 @@ Contains simple unit tests aiming to show people how to write unit tests in PyUn
 
 
 ### (HTML5/CSS3) Example CV for Softuni
-It was going to be used as an entry CV for [SoftUni.bg](https://softuni.bg). Technologies used are HTML5, CSS3 and media queries.
+It was going to be used as an entry CV for [SoftUni.bg](https://softuni.bg). Media queries (for responsive design) and CSS3 animations were used for eye candy on all resolutions.
+
+
+### (Java, GUI, Swing)  Font Viewer
+A simple font viewer that fetches all available fonts on the OS it's being launched on. You can set text, font, style and size.
