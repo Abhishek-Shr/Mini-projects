@@ -36,3 +36,8 @@ A simple font viewer that fetches all available fonts on the OS it's being launc
 
 ![java swing font viewer](http://i.imgur.com/cWgqxXf.png "Java Swing Font Viewer")
 
+### (Java, GUI, Swing) ATM
+Simulates an ATM with only difference that instead of putting a credit card in, you must supply a customer card number to log in. 
+The customers are read from a text file and added to the bank.
+
+Overall goal was not to make a perfect ATM simulator, but practice Object-Oriented Design and GUI programming.
